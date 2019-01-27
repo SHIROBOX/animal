@@ -13,6 +13,6 @@ class Lion implements LandAnimal {
 
      @Override
      public void eat(String food ) {
-          System.out.println("Lion Eat " + food);
+          System.out.println("Lion Eat " + food + " YAKINIKU");
      }
 }
