@@ -13,7 +13,7 @@ public class Dog implements LandAnimal {
 
      @Override
      public void eat(String food ) {
-          System.out.println("Dog Eat " + food);
+          System.out.println("Dog Eat " + food + " HOTDOG");
      }
 
 }
