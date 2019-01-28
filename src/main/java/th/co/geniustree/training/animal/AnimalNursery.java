@@ -5,20 +5,28 @@
  */
 package th.co.geniustree.training.animal;
 
+import java.util.ArrayList;
+
 /**
  *
  * @author mbk_i
  */
 public class AnimalNursery {
-
+     
      private Animal animal;
-
+     private ArrayList<Animal> animals = new ArrayList<>(); 
+     
      public void accept(Animal animal) {
-          this.animal = animal;
-
+        //  this.animal = animal;
+          animals.add(animal);
      }
-
+     
      public void takeCareAll() {
-          animal.eat("Food");
+        //  animal.eat("Food");
+          for (Animal animal : animals) {    
+           animal.eat("Food");
+              
+          }
+          
      }
 }
