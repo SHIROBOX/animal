@@ -13,7 +13,7 @@ public class Fish implements AquaticAnimal {
 
      @Override
      public void eat(String food) {
-          System.out.println("Fish Eat" + food);
+          System.out.println("Fish Eat " + food);
      }
 
 }
